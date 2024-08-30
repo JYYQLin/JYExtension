@@ -2,7 +2,7 @@
 //  JY_Extension_UIWindow.swift
 //  JYExtension
 //
-//  Created by Jing on 2024/8/9.
+//  Created by JYYQLin on 2024/8/9.
 //
 
 import UIKit
