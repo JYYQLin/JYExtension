@@ -1,8 +1,8 @@
 //
 //  JY_Extension_Date.swift
-//  KoalaRe
+//  JYExtension
 //
-//  Created by KoalaRe on 2024/10/9.
+//  Created by JYYQLin on 2024/10/9.
 //
 
 import UIKit
