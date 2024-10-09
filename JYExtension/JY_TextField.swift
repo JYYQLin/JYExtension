@@ -7,7 +7,7 @@
 
 import UIKit
 
-class JY_TextField: UITextField {
+public class JY_TextField: UITextField {
     
     public var yq_placeholder_color: UIColor? {
         didSet{
@@ -21,7 +21,7 @@ class JY_TextField: UITextField {
         }
     }
     
-    override var placeholder: String? {
+    public override var placeholder: String? {
         didSet{
             let p = placeholder
             yq_change_placeholder()

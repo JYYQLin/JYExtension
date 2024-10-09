@@ -7,7 +7,7 @@
 
 import UIKit
 
-class JY_Json_Tool {
+public class JY_Json_Tool {
     
 }
 
@@ -16,7 +16,7 @@ extension JY_Json_Tool {
     /// 任意类型对象转json字符串
     /// - Parameter obj: 任意类型对象
     /// - Returns: json字符串
-    static func yq_translation_Objc_to_json(from obj: Any) -> String?{
+    public static func yq_translation_Objc_to_json(from obj: Any) -> String?{
         if JSONSerialization.isValidJSONObject(obj) == false {
             return nil
         }
@@ -36,7 +36,7 @@ extension JY_Json_Tool {
     /// json字符串转字典
     /// - Parameter jsonStirng: json字符串
     /// - Returns: 字典(类型[String : Any])
-    static func yq_translation_json_to_dic(from jsonStirng: String) -> [String : Any]? {
+    public static func yq_translation_json_to_dic(from jsonStirng: String) -> [String : Any]? {
         guard let data = yq_translation_json_to_Objc(from: jsonStirng)  else {
             return nil
         }
@@ -49,7 +49,7 @@ extension JY_Json_Tool {
     /// json字符串转对象
     /// - Parameter jsonStirng: json字符串
     /// - Returns: 对象(类型Any)
-    static func yq_translation_json_to_Objc(from jsonStirng: String) -> Any? {
+    public static func yq_translation_json_to_Objc(from jsonStirng: String) -> Any? {
         guard let data = jsonStirng.data(using: .utf8) else {
             return nil
         }

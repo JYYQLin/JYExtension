@@ -7,7 +7,7 @@
 
 import UIKit
 
-class JY_Date_Tool {
+public class JY_Date_Tool {
     /** 转为（天，时，分，秒）的格式 */
     public static func yq_timeIntervalSinceNow(to futureTimestamp: TimeInterval) -> (days: Int, hours: Int, minutes: Int, seconds: Int) {
         let currentDate = Date()
