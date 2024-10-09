@@ -42,7 +42,7 @@ extension UIFont {
 }
 
 extension UIFont {
-    static func yq_harmonyOS_Sans_SC_font(_ fontSize: CGFloat) -> UIFont {
+    public static func yq_harmonyOS_Sans_SC_font(_ fontSize: CGFloat) -> UIFont {
         return UIFont.init(name: "HarmonyOS Sans SC", size: fontSize) ?? UIFont.systemFont(ofSize: fontSize)
     }
 }
